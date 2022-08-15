@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "zoo-animal",
+    "name": "Wiki Animal",
     "slug": "zoo-animal",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rakibdev.zooanimal"
     },
     "web": {
       "favicon": "./assets/favicon.png"
