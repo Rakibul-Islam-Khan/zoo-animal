@@ -6,6 +6,7 @@ export const animalData = [
         wikipedia: 'https://en.wikipedia.org/wiki/Lion',
         id: 1,
         class: 'Mammals',
+        music: '',
     },
     {
         name: 'Tiger',
@@ -13,7 +14,8 @@ export const animalData = [
         description: 'Tigers are the second largest cat species in the world. They are the largest of the big cats. They can reach lengths of 3.3 meters and weigh up to 700 kilograms. Tigers are the only big cat that can jump backwards.',
         wikipedia: 'https://en.wikipedia.org/wiki/Tiger',
         id: 2,
-        class: 'Mammals'
+        class: 'Mammals',
+        music:'',
     },
     {
         name: 'Panther',
@@ -21,7 +23,8 @@ export const animalData = [
         description: 'Panthers are the second largest cat species in the world. They are the largest of the big cats. They can reach lengths of 3.3 meters and weigh up to 700 kilograms. Panthers are the only big cat that can jump backwards.',
         wikipedia: 'https://en.wikipedia.org/wiki/Panther',
         id: 3,
-        class: 'Mammals'
+        class: 'Mammals',
+        music:'',
     },
     {
         name: 'Jaguar',
@@ -29,7 +32,8 @@ export const animalData = [
         description: 'Jaguars are the second largest cat species in the world. They are the largest of the big cats. They can reach lengths of 3.3 meters and weigh up to 700 kilograms. Jaguars are the only big cat that can jump backwards.',
         wikipedia: 'https://en.wikipedia.org/wiki/Jaguar',
         id: 4,
-        class: 'Mammals'
+        class: 'Mammals',
+        music:'',
     },
     {
         name: 'Giraffe',
@@ -37,7 +41,8 @@ export const animalData = [
         description: 'Giraffes are the second largest cat species in the world. They are the largest of the big cats. They can reach lengths of 3.3 meters and weigh up to 700 kilograms. Giraffes are the only big cat that can jump backwards.',
         wikipedia: 'https://en.wikipedia.org/wiki/Giraffe',
         id: 5,
-        class: 'Mammals'
+        class: 'Mammals',
+        music:'',
     },
     {
         name: 'Elephant',
@@ -45,7 +50,8 @@ export const animalData = [
         description: 'Elephants are the second largest cat species in the world. They are the largest of the big cats. They can reach lengths of 3.3 meters and weigh up to 700 kilograms. Elephants are the only big cat that can jump backwards.',
         wikipedia: 'https://en.wikipedia.org/wiki/Elephant',
         id: 6,
-        class: 'Mammals'
+        class: 'Mammals',
+        music:'../../assets/mp3/Elephant.mp3',
     },
     {
         name: 'Zebra',
@@ -53,7 +59,8 @@ export const animalData = [
         description: 'Zebras are the second largest cat species in the world. They are the largest of the big cats. They can reach lengths of 3.3 meters and weigh up to 700 kilograms. Zebras are the only big cat that can jump backwards.',
         wikipedia: 'https://en.wikipedia.org/wiki/Zebra',
         id: 7,
-        class: 'Mammals'
+        class: 'Mammals',
+        music:'',
     },
     {
         name: 'Gazelle',
@@ -61,7 +68,8 @@ export const animalData = [
         description: 'Gazelles are the second largest cat species in the world. They are the largest of the big cats. They can reach lengths of 3.3 meters and weigh up to 700 kilograms. Gazelles are the only big cat that can jump backwards.',
         wikipedia: 'https://en.wikipedia.org/wiki/Gazelle',
         id: 8,
-        class: 'Mammals'
+        class: 'Mammals',
+        music:'',
     },
     {
         name: 'Llama',
@@ -69,7 +77,8 @@ export const animalData = [
         description: 'Llamas are the second largest cat species in the world. They are the largest of the big cats. They can reach lengths of 3.3 meters and weigh up to 700 kilograms. Llamas are the only big cat that can jump backwards.',
         wikipedia: 'https://en.wikipedia.org/wiki/Llama',
         id: 9,
-        class: 'Mammals'
+        class: 'Mammals',
+        music:'',
     },
     {
         name: 'Giant Panda',
@@ -77,7 +86,8 @@ export const animalData = [
         description: 'Giant pandas are the second largest cat species in the world. They are the largest of the big cats. They can reach lengths of 3.3 meters and weigh up to 700 kilograms. Giant pandas are the only big cat that can jump backwards.',
         wikipedia: 'https://en.wikipedia.org/wiki/Giant_panda',
         id: 10,
-        class: 'Mammals'
+        class: 'Mammals',
+        music:''
     },
     {
         name: 'Cockatiel',
@@ -85,7 +95,8 @@ export const animalData = [
         description: 'The cockatiel, also known as weiro bird, or quarrion, is a medium-sized parrot that is a member of its own branch of the cockatoo family endemic to Australia. They are prized as household pets and companion parrots throughout the world and are relatively easy to breed.',
         wikipedia: 'https://en.wikipedia.org/wiki/Cockatiel',
         id: 11,
-        class: 'Birds'
+        class: 'Birds',
+        music: '../../assets/mp3/Cockatiel.mp3'
     },
     {
         name: 'Parrot',
@@ -93,7 +104,8 @@ export const animalData = [
         description: 'Parrots are birds that are members of the parrot family. They are similar to other birds in that they have a beak, a bill, and a tail. However, they are not the same as other birds in that they have a pair of wings.',
         wikipedia: 'https://en.wikipedia.org/wiki/Parrot',
         id: 12,
-        class: 'Birds'
+        class: 'Birds',
+        music:''
     },
     {
         name: 'Lovebirds',
@@ -101,7 +113,8 @@ export const animalData = [
         description: 'Lovebirds are birds that are members of the parrot family. They are similar to other birds in that they have a beak, a bill, and a tail. However, they are not the same as other birds in that they have a pair of wings.',
         wikipedia: 'https://en.wikipedia.org/wiki/Lovebirds',
         id: 13,
-        class: 'Birds'
+        class: 'Birds',
+        music:''
     },
     {
         name: 'Rainbow lorikeet',
@@ -109,7 +122,8 @@ export const animalData = [
         description: 'The rainbow lorikeet is a species of parrot found in Australia. It is common along the eastern seaboard, from northern Queensland to South Australia. Its habitat is rainforest, coastal bush and woodland areas.Six taxa traditionally listed as subspecies of the rainbow lorikeet are now treated as separate species.',
         wikipedia: 'https://en.wikipedia.org/wiki/Rainbow_lorikeet',
         id: 14,
-        class: 'Birds'
+        class: 'Birds',
+        music:''
     },
     {
         name: 'Owl',
@@ -117,7 +131,8 @@ export const animalData = [
         description: 'Owls are birds from the order Strigiformes, which includes over 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight.',
         wikipedia: 'https://en.wikipedia.org/wiki/Owl',
         id: 15,
-        class: 'Birds'
+        class: 'Birds',
+        music:''
     },
     {
         name: 'Penguin',
@@ -125,7 +140,8 @@ export const animalData = [
         description: 'Penguins are birds that are members of the order Apodiformes, which includes the penguin, emperor penguin, and the emperor of the emperor penguin. They are the most common bird in the world, and the most common resident of Earth.',
         wikipedia: 'https://en.wikipedia.org/wiki/Penguin',
         id: 16,
-        class: 'Birds'
+        class: 'Birds',
+        music:''
     },
     {
         name: 'European robin',
@@ -133,7 +149,8 @@ export const animalData = [
         description: 'The European robin, known simply as the robin or robin redbreast in the British Isles, is a small insectivorous passerine bird that belongs to the chat subfamily of the Old World flycatcher family.',
         wikipedia: 'https://en.wikipedia.org/wiki/European_robin',
         id: 17,
-        class: 'Birds'
+        class: 'Birds',
+        music:''
     },
     {
         name: 'Budgerigar',
@@ -141,7 +158,8 @@ export const animalData = [
         description: 'Budgerigars are a group of small, mostly insectivorous, passerine birds that are native to the Americas. They are found in the United States and Canada, and in some parts of the Caribbean.',
         wikipedia: 'https://en.wikipedia.org/wiki/Budgerigar',
         id: 18,
-        class: 'Birds'
+        class: 'Birds',
+        music:''
     },
     {
         name: 'Pogona',
@@ -149,7 +167,8 @@ export const animalData = [
         description: 'Pogona is a genus of reptiles containing six lizard species which are often known by the common name bearded dragons. ',
         wikipedia: 'https://en.wikipedia.org/wiki/Pogona',
         id: 19,
-        class: 'Reptiles'
+        class: 'Reptiles',
+        music:''
     },
     {
         name: 'Turtle',
@@ -157,7 +176,8 @@ export const animalData = [
         description: 'Turtles are reptiles that are members of the order Testudines. They are closely related to reptiles, although some species are considered to be a suborder of reptiles. The order Testudines includes the snapping turtle, the box turtle, the leatherback turtle, the green turtle, the sea turtle, the terrapin, and the giant snapping turtle.',
         wikipedia: 'https://en.wikipedia.org/wiki/Turtle',
         id: 20,
-        class: 'Reptiles'
+        class: 'Reptiles',
+        music:''
     },
     {
         name: 'Snake',
@@ -165,7 +185,8 @@ export const animalData = [
         description: 'Snakes are a family of squamates, or water serpents, which are a suborder of the reptile family Squamata. The family includes, in addition to the species of which the genus is the main constituent, a number of other species, some of which are not currently recognized as separate species. ',
         wikipedia: 'https://en.wikipedia.org/wiki/Snake',
         id: 21,
-        class: 'Reptiles'
+        class: 'Reptiles',
+        music:''
     },
     {
         name: 'Lizard',
@@ -173,7 +194,8 @@ export const animalData = [
         description: 'Lizards are a family of squamates, or water serpents, which are a suborder of the reptile family Squamata. The family includes, in addition to the species of which the genus is the main constituent, a number of other species, some of which are not currently recognized as separate species. ',
         wikipedia: 'https://en.wikipedia.org/wiki/Lizard',
         id: 22,
-        class: 'Reptiles'
+        class: 'Reptiles',
+        music:''
     },
     {
         name: 'Crocodile',
@@ -181,7 +203,8 @@ export const animalData = [
         description: 'Crocodiles or true crocodiles are large semiaquatic reptiles that live throughout the tropics in Africa, Asia, the Americas and Australia.',
         wikipedia: 'https://en.wikipedia.org/wiki/Crocodile',
         id: 23,
-        class: 'Reptiles'
+        class: 'Reptiles',
+        music:''
     },
     {
         name: 'Komodo dragon',
@@ -189,7 +212,8 @@ export const animalData = [
         description: 'Komodo dragons are a group of large, serpentine, predatory reptiles that live in the tropics of the Indian Ocean. They are found in the Philippines, Indonesia, and the Philippines.',
         wikipedia: 'https://en.wikipedia.org/wiki/Komodo_dragon',
         id: 24,
-        class: 'Reptiles'
+        class: 'Reptiles',
+        music:''
     },
     {
         name: 'Geckos',
@@ -197,7 +221,8 @@ export const animalData = [
         description: 'Gekkonidae is the largest family of geckos, containing over 950 described species in 64 genera. Members of the Gekkonidae comprise many of the most widespread gecko species, including house geckos, tokay geckos, day geckos, mourning geckos and dtellas.',
         wikipedia: 'https://en.wikipedia.org/wiki/Geckos',
         id: 25,
-        class: 'Reptiles'
+        class: 'Reptiles',
+        music:''
     },
     {
         name: 'Poison Dart Frog',
@@ -205,7 +230,8 @@ export const animalData = [
         description: 'Poison dart frog is the common name of a group of frogs in the family Dendrobatidae which are native to tropical Central and South America. These species are diurnal and often have brightly colored bodies. This bright coloration is correlated with the toxicity of the species, making them aposematic.',
         wikipedia: 'https://en.wikipedia.org/wiki/Poison_dart_frog',
         id: 31,
-        class: 'Amphibians'
+        class: 'Amphibians',
+        music:''
     },
     {
         name: 'True frog',
@@ -213,7 +239,8 @@ export const animalData = [
         description: 'True frogs are a group of frogs that are native to the tropical rainforests of the Amazon Basin. They are found in the Amazon basin in the Amazonica, in the Andes, and in the Amazon Rainforest.',
         wikipedia: 'https://en.wikipedia.org/wiki/True_frog',
         id: 26,
-        class: 'Amphibians'
+        class: 'Amphibians',
+        music:''
     },
     {
         name: 'Toad',
@@ -221,7 +248,8 @@ export const animalData = [
         description: 'Toads are a group of small, mostly insectivorous, amphibious amphibians that are native to the Americas. They are found in the United States and Canada, and in some parts of the Caribbean.',
         wikipedia: 'https://en.wikipedia.org/wiki/Toad',
         id: 27,
-        class: 'Amphibians'
+        class: 'Amphibians',
+        music:''
     },
     {
         name: 'Lobster',
@@ -229,7 +257,8 @@ export const animalData = [
         description: 'Lobsters are a group of small, mostly insectivorous, amphibious amphibians that are native to the Americas. They are found in the United States and Canada, and in some parts of the Caribbean.',
         wikipedia: 'https://en.wikipedia.org/wiki/Lobster',
         id: 28,
-        class: 'Amphibians'
+        class: 'Amphibians',
+        music:''
     },
     {
         name: 'Crayfish',
@@ -237,7 +266,8 @@ export const animalData = [
         description: 'Crayfish are a group of small, mostly insectivorous, amphibious amphibians that are native to the Americas. They are found in the United States and Canada, and in some parts of the Caribbean.',
         wikipedia: 'https://en.wikipedia.org/wiki/Crayfish',
         id: 29,
-        class: 'Amphibians'
+        class: 'Amphibians',
+        music:''
     },
     {
         name: 'Clam',
@@ -245,7 +275,8 @@ export const animalData = [
         description: 'Clams are a group of small, mostly insectivorous, amphibious amphibians that are native to the Americas. They are found in the United States and Canada, and in some parts of the Caribbean.',
         wikipedia: 'https://en.wikipedia.org/wiki/Clam',
         id: 30,
-        class: 'Amphibians'
+        class: 'Amphibians',
+        music:''
     },
     
 ]

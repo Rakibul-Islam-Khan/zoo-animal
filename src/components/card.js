@@ -22,11 +22,13 @@ export default function Card({ category, name, image, style }) {
                     },
                 ]}
             >
-                <View style={{ marginLeft: 15, width: 120 }}>
+                <View style={{marginLeft:22, width: 120 }}>
                     <Text style={{ color: "#fff" }}>{category}</Text>
                     <Text style={{ fontSize: 24, fontWeight: "700" }}>{name}</Text>
                 </View>
-                <Image style={{ flex: 1 }} source={image} resizeMode="contain" />
+                <View>
+                     <Image style={{ flex: 1, width:190 }} source={image} resizeMode="contain" />
+                </View>
             </View>
         </TouchableOpacity>
     );

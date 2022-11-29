@@ -19,7 +19,7 @@ const MyTheme = {
 const slides = [
   {
     key: 1,
-    title: 'WikiAnimal',
+    title: 'AnimalWiki',
     text: 'Learn More about the animal Kingdom?',
     image: require('./assets/images/intro.png'),
   }
@@ -29,7 +29,7 @@ const renderItem = ({ item }) => {
     <View style={{}}>
       <ImageBackground source={item.image} style={{ height: '100%', }}>
         <Text style={{ fontSize: 36, fontWeight: '700', color: '#fff', textAlign: 'center', top:60 }}>{item.title}</Text>
-        <Text style={{ fontSize: 25, fontWeight: '800', color: '#fff', textAlign: 'center', top: 580, textShadowColor: 'rgba(0, 0, 0, 0.6)', textShadowOffset: { width: 8, height: 0 } , textShadowRadius: 4}}>{item.text}</Text>
+        <Text style={{ fontSize: 25, fontWeight: '800', color: '#fff', textAlign: 'center', top: 500, textShadowColor: 'rgba(0, 0, 0, 0.6)', textShadowOffset: { width: 8, height: 0 } , textShadowRadius: 4}}>{item.text}</Text>
       </ImageBackground>
     </View>
   );

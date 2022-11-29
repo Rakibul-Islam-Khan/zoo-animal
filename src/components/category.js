@@ -5,9 +5,17 @@ import { animalData } from '../data/animalData.js'
 import Header from './header.js';
 
 export default function Category({ route })  {
-    const { category } = route.params;
+    // const [isLoading, setIsLoading] = React.useState(true);
     const navigation = useNavigation();
+    const { category } = route.params;
     const animals = animalData.filter((item) => item.class === category);
+    // if (isLoading) {
+    //     return (
+    //         <View style={{ ...style, backgroundColor: "#fff", borderRadius: 20, overflow: "hidden", alignItems: "center", justifyContent: "center" }}>
+    //             <Text>Loading...</Text>
+    //         </View>
+    //     )
+    // }
     const AnimalItem = ({ item }) => {
         return (
             <Pressable
