@@ -6,7 +6,7 @@ export const animalData = [
         wikipedia: 'https://en.wikipedia.org/wiki/Lion',
         id: 1,
         class: 'Mammals',
-        music: '',
+        music: require('../../assets/mp3/Lion.mp3')
     },
     {
         name: 'Tiger',
@@ -15,7 +15,7 @@ export const animalData = [
         wikipedia: 'https://en.wikipedia.org/wiki/Tiger',
         id: 2,
         class: 'Mammals',
-        music:'',
+        music: require('../../assets/mp3/Jaguar.mp3'),
     },
     {
         name: 'Panther',
@@ -33,7 +33,7 @@ export const animalData = [
         wikipedia: 'https://en.wikipedia.org/wiki/Jaguar',
         id: 4,
         class: 'Mammals',
-        music:'',
+        music: require('../../assets/mp3/Tiger.mp3'),
     },
     {
         name: 'Giraffe',
@@ -51,7 +51,7 @@ export const animalData = [
         wikipedia: 'https://en.wikipedia.org/wiki/Elephant',
         id: 6,
         class: 'Mammals',
-        music:'../../assets/mp3/Elephant.mp3',
+        music: require('../../assets/mp3/Elephant.mp3'),
     },
     {
         name: 'Zebra',
@@ -96,7 +96,7 @@ export const animalData = [
         wikipedia: 'https://en.wikipedia.org/wiki/Cockatiel',
         id: 11,
         class: 'Birds',
-        music: '../../assets/mp3/Cockatiel.mp3'
+        music: require('../../assets/mp3/Cockatiel.mp3')
     },
     {
         name: 'Parrot',
